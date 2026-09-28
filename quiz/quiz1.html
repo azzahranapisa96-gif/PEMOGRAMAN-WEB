@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban DigiCraft</title>
+</head>
+<body bgcolor="#d8ebd9">
+
+    <!-- Bagian Kepala Halaman -->
+    <header>
+        <h2><center>Form Pemesanan Ringkas - Poliban DigiCraft &nbsp;&nbsp;&nbsp;&nbsp; <a href="../kontak.html">Kembali ke Beranda</a></center></h2> 
+        <hr>
+    </header>
+
+    <main>
+        <!-- Bagian Gambar & Deskripsi -->
+        <section>
+            <table border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td width="150" height="100" align="center">
+                        <img src="../gambar/gt mustang.jpg" alt="Gambar Produk">
+                    </td>
+                    <td valign="top">
+                        <p>Ford Mustang GT adalah mobil muscle legendaris asal Amerika Serikat yang dikenal lewat desain gagah berkarakter serta performa tinggi dari mesin besar 5.0L V8 Coyote. Mengusung sistem penggerak roda belakang (RWD) dan raungan suara knalpot yang khas, Mustang GT menjadi ikon mobil sport yang menggabungkan gaya klasik yang agresif dengan sensasi berkendara yang bertenaga.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <!-- Bagian Daftar Paket & Harga -->
+        <section>
+            <table border="1" cellpadding="8" cellspacing="0" width="100%">
+                <thead>
+                    <tr align="left" bgcolor="#9fc5bb">
+                        <th>Package Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paket Basic</td>
+                        <td>Rp 50.000</td>
+                    </tr>
+                    <tr>
+                        <td>Paket Standar</td>
+                        <td>Rp 100.000</td>
+                    </tr>
+                    <tr>
+                        <td>Paket Premium</td>
+                        <td>Rp 150.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <!-- Bagian Formulir Pemesanan -->
+        <form action="#" method="post">
+            <fieldset style="width: 350p;">
+                <legend><b>Formulir Pemesanan</b></legend>
+                <br>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td><label for="nama_lengkap">Nama Lengkap:</label></td>
+                        <td><input type="text" name="nama_lengkap" id="nama_lengkap" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Email" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="paket">Paket:</label></td>
+                        <td>
+                            <select name="paket" id="paket" style="width: 100%;">
+                                <option value="">Pilih Paket</option>
+                                <option value="basic">Paket Basic</option>
+                                <option value="standar">Paket Standar</option>
+                                <option value="premium">Paket Premium</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br><button type="submit">Kirim Pesanan</button></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+</html>
